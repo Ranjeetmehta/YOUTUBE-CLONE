@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>YouTube clone</title>
+  </head>
+  <body>
+    <div id="main">
+      <header class="header">
+        <div class="header__right">
+          <i class="material-icons">menu</i>
+          <img src="./assets/logo.svg" alt="youtube logo" />
+        </div>
+        <div class="header__middle">
+          <div class="header___search">
+            <input type="text" placeholder="Search" />
+            <i class="material-icons">search</i>
+          </div>
+          <div class="header__mike">
+            <i class="material-icons">mic</i>
+          </div>
+        </div>
+        <div class="header__left">
+          <i class="material-icons">video_call</i>
+          <i class="material-icons">apps</i>
+          <i class="material-icons">notifications</i>
+          <img src="./assets/User-Avatar.png" alt="User Logo" />
+        </div>
+        <div class="mob_search-div">
+          <i class="material-icons">search</i>
+        </div>
+      </header>
+      <main class="main-section">
+        <div class="main__left">
+          <div class="main__main-ul">
+            <ul class="ul">
+              <li class="li" id="Home">
+                <i class="material-icons">home</i>
+                <p>Home</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">explore</i>
+                <p>Explore</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">subscriptions</i>
+                <p>Subsciptions</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">library_add</i>
+                <p>Library</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">history</i>
+                <p>History</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">slideshow</i>
+                <p>Your Videos</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">schedule</i>
+                <p>Watch Later</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">thumb_up</i>
+                <p>Liked Videos</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">expand_more</i>
+                <p>Show More</p>
+              </li>
+            </ul>
+          </div>
+          <div class="main__subscriptions">
+            <h4>SUBSCIPTIONS</h4>
+            <ul class="ul">
+              <li class="li">
+                <img src="./assets/User-Avatar.png" alt="subscibed acc img" />
+                <p>James Camron</p>
+              </li>
+              <li class="li">
+                <img src="./assets/User-Avatar.png" alt="subscibed acc img" />
+                <p>Stive Wonder</p>
+              </li>
+              <li class="li">
+                <img src="./assets/User-Avatar.png" alt="subscibed acc img" />
+                <p>Bruice Wyane</p>
+              </li>
+              <li class="li">
+                <img src="./assets/User-Avatar.png" alt="subscibed acc img" />
+                <p>Henry Cavil</p>
+              </li>
+              <li class="li">
+                <img src="./assets/User-Avatar.png" alt="subscibed acc img" />
+                <p>Misha Amani</p>
+              </li>
+              <li class="li">
+                <img src="./assets/User-Avatar.png" alt="subscibed acc img" />
+                <p>Narrator</p>
+              </li>
+              <li class="li">
+                <img src="./assets/User-Avatar.png" alt="subscibed acc img" />
+                <p>Micon</p>
+              </li>
+              <li class="li">
+                <img src="./assets/User-Avatar.png" alt="subscibed acc img" />
+                <p>Shubham</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">expand_more</i>
+                <p>Show More</p>
+              </li>
+            </ul>
+          </div>
+          <div class="main__more">
+            <h4>MORE FROM YOUTUBE</h4>
+            <ul class="ul">
+              <li class="li">
+                <i class="material-icons">smart_display</i>
+                <p>YouTube Premium</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">videogame_asset</i>
+                <p>Gaming</p>
+              </li>
+              <li class="li">
+                <i class="material-icons">sensors</i>
+                <p>Live</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main__right">
+          <div class="main__catagory-header">
+            <ul class="main__catagory-ul">
+              <li id="catagory-header-first-child">All</li>
+              <li class="header__item">Sports</li>
+              <li class="header__item">Music</li>
+              <li class="header__item">News</li>
+              <li class="header__item">Songs</li>
+              <li class="header__item">Cooking</li>
+              <li class="header__item">Blogging</li>
+              <li class="header__item">Motivaion</li>
+              <li class="header__item">Exercise</li>
+              <li class="header__item">Defence</li>
+              <li class="header__item">Dance</li>
+              <li class="header__item">Farming</li>
+              <li class="header__item">Pranks</li>
+              <li class="header__item">Funny</li>
+              <li class="header__item">Dog</li>
+              <li class="header__item">Hindi Songs</li>
+              <li class="header__item">Bollywood</li>
+              <li class="header__item">Exmuslim sahil</li>
+              <li class="header__item">India</li>
+            </ul>
+            <div class="main__catagory-left-icon">
+              <i class="material-icons">keyboard_arrow_right</i>
+            </div>
+          </div>
+          <div class="main__video-grid" id="video-grid">
+            <!-- Videos will be added here -->
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="./script/script.js"></script>
+</html>
